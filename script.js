@@ -1,8 +1,11 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var lowerCase = ["a","b","c"];
-var upperCase = ["A","B","C"];
+let lowerCase = 'abcdefghijklmnopqrstuvwxyz'.split('');
+let upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+let charNumbers = '123456789'.split('')
+let specialChar = `!@#$%^&*()+"',-/:;<>[]{}~|/`.split('')
 //Google how to convert string to array
+// how can I add the backtick without making the array think it's a string
 
 var chars = [];
 // Write password to the #password input
@@ -27,8 +30,20 @@ function generatePassword(){
   var passwordCharacter = confirm("Do you want special characters?");
   var passwordNumber = confirm("Do you want numbers?");
   
-  if(passwordUppercase){
+  if(passwordUppercase){ 
+    chars.push()
   //push upperCase to chars array
+  }
+  if (passwordLowercase) {
+    chars.push()
+  }
+
+  if (passwordCharacter) {
+    chars.push()
+  }
+
+  if (passwordNumber) {
+    chars.push()
   }
 
   //create the password from chars array with the password length user chose
