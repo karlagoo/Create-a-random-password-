@@ -11,7 +11,13 @@ The first criteria to be met was that the password had to be at least 8 characte
     * In this if statement the input was less than 8, more than 128 and the input was non-existent. I used the "||" (or) statement to satisfy that if any of those are true and error message will appear.
     * If none of those held true, then the generatePassword function would run
 
-The next criteria was for the used to be prompted whether they wanted, uppercase, lowercase, numbers, and/or special characters in their password. I started off by creating variables for each of the criteria. For these I used the "confirm" method because then it would assign the variable a boolean value which would make the conditional statements easier.
+The next criteria was for password to have uppercase, lowercase, numbers, and/or special characters. 
+* I started off by creating variables for each of the criteria. 
+    * For these I used the "confirm" method because then it would assign the variable a boolean value which would make the conditional statements easier. 
+* I made the conditional "if" statements for each character description.
+* I created a new variable in which I can "push" each decision to. To do that I had to push two arrays together.
+* Lastly, to randomize what character from the chosen criteria that will be pushed to the password I used a foor loop. 
+    * In this for loop, I used the "randomchars index". I set the length equal to the password length in order to connect the first criteria of number of characters chosen. 
 
 
 
