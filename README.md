@@ -18,7 +18,13 @@ The next criteria was for password to have uppercase, lowercase, numbers, and/or
 * For each array created, I used the <u>push</u> method to push them to the variable "chars".
 * Lastly, to randomize what character from the chosen criteria that will be pushed to the password I used a foor loop. 
     * In this for loop, I used the "randomchars index". I set the length equal to the password length in order to connect the first criteria of number of characters chosen. 
-* After creating a new variable with the random characters (which included the random criteria that the user chose) I created I new variable, "password outcome" that would ultimately be added to this random characters variable and creat the new password!
+
+After creating a new variable with the random characters (which included the random criteria that the user chose) I created I new variable, "password outcome" that would ultimately be added to this random characters variable and create the new password! 
+
+I used the <u>**return**</u> statement to end the function: "generate password" and give it a value.
+
  ## **Here is the outcome when choosing all character criteria!**
+ ### Access the file here: https://karlagoo.github.io/Password-Generator/
+
 ![Password Generat](https://user-images.githubusercontent.com/84356242/123033645-b8503800-d3ad-11eb-94c5-440d873963d1.png)
 
