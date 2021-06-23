@@ -1,4 +1,4 @@
-# Password-Generator
+# Password-Generator 🔐
 ## Creating a password generator using JavaScript
 Our goal this week was to create a password generator using the criteria given:
 
@@ -14,10 +14,11 @@ The first criteria to be met was that the password had to be at least 8 characte
 The next criteria was for password to have uppercase, lowercase, numbers, and/or special characters. 
 * I started off by creating variables for each of the criteria. 
     * For these I used the "confirm" method because then it would assign the variable a boolean value which would make the conditional statements easier. 
-* I made the conditional "if" statements for each character description.
-* I created a new variable in which I can "push" each decision to. To do that I had to push two arrays together.
+* I made the conditional "if" statements for each character description - this was so if the user chose "yes" in the confirm box, it would push the true boolean value to the newly created "chars" variable.
+* For each array created, I used the <u>push</u> method to push them to the variable "chars".
 * Lastly, to randomize what character from the chosen criteria that will be pushed to the password I used a foor loop. 
     * In this for loop, I used the "randomchars index". I set the length equal to the password length in order to connect the first criteria of number of characters chosen. 
-
-
+* After creating a new variable with the random characters (which included the random criteria that the user chose) I created I new variable, "password outcome" that would ultimately be added to this random characters variable and creat the new password!
+ ## **Here is the outcome when choosing all character criteria!**
+![Password Generat](https://user-images.githubusercontent.com/84356242/123033645-b8503800-d3ad-11eb-94c5-440d873963d1.png)
 
